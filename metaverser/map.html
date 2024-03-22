@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Metaverser</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Centralizing information for those developing the metaverse.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Metaverse Virtual Reality Augmented Reality VR AR XR">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- handlebars.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+        integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- handlebars template -->
+    <script id="map-info-template" type="text/x-handlebars-template">
+            <h1>{{country}}</h1>
+            <ul>
+                {{#each entities}}
+                    <li>
+                        <details><summary><a href="{{URL}}">{{name}}</a> ({{type}})</summary><p>{{details}} ({{location}})</p></details>
+                    </li>
+                {{/each}}
+            </ul>
+        </script>
+    <!-- D3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.js"
+        integrity="sha512-NmSTfudjn1FCaFMQ+f4xveBmwRJn5ep8Wu+YOeq+CeExhFtKvwhfKVXFX3tGxoGWxu8Fl83qm9nE8/Hkc1dWZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+ 
+<body>
+
+    <!------------------------------------------ header and navigation --------------------------------------------->
+
+    <header id="header" class="col-2">
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="/index.html">Metaverser</a>
+            </div>
+
+            <div class="dropdown-button">
+                <button id="dropdown-toggle">Menu</button>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="navbar">
+                    <a href="/news.html">News</a>
+                    <a href="/profiles.html">Profiles</a>
+                    <a href="/software.html">Software</a>
+                    <a href="/specs.html">Specs & Regulations</a>
+                    <a href="/map.html">Map</a>
+                </nav>
+
+                <div class="settings" id="settings">
+                    <button id="change-theme">Theme</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------------------------ main content --------------------------------------------->
+
+    <div class="content" id="map-content">
+
+        <!------------------------------------------ introduction --------------------------------------------->
+
+        <div class="content-intro">
+            <h1>Map</h1>
+            <p>Welcome to the Map section. Here, we provide an interactive map of the globe, allowing you to explore the
+                global landscape of metaverse technology development. By clicking on a country, you can discover which
+                companies are actively involved in advancing the metaverse and where they are based. For developers,
+                this map offers valuable insights into the geographical distribution of metaverse innovation, enabling
+                them to identify key players in specific regions and explore potential collaboration opportunities.
+                Whether you're seeking inspiration, partnerships, or simply curious about the global metaverse
+                ecosystem, our map provides a comprehensive overview of the diverse and dynamic landscape of metaverse
+                technology.</p>
+        </div>
+
+        <div>
+            <a href="map-list.html" id="list-button">List of map contents</a>
+        </div>
+
+        <!------------------------------------------ map --------------------------------------------->
+        <!---------------------------------------- desktop ------------------------------------------->
+
+        <h1 class="large-screen">World Map</h1>
+        <div class="map-container large-screen" id="map-container0">
+            <svg id="map0" viewBox="0 0 900 900" width="100%" height="425" preserveAspectRatio="xMidYMin slice" x="0"
+                y="0">
+            </svg>
+        </div>
+
+        <div class="map-info large-screen" id="map-info0">
+            <h3>Select country/state</h3>
+        </div>
+
+        <!------------------------------------------ map --------------------------------------------->
+        <!---------------------------------------- desktop ------------------------------------------->
+
+        <h1 class="small-screen">North America Map</h1>
+        <div class="map-container small-screen" id="map-container1">
+            <svg id="map1" viewBox="0 -40 400 400" width="100%" height="425" preserveAspectRatio="xMidYMin slice" x="0"
+                y="0">
+            </svg>
+        </div>
+        <div class="map-info small-screen" id="map-info1">
+            <h3>Select country/state</h3>
+        </div>
+
+        <h1 class="small-screen">South America Map</h1>
+        <div class="map-container small-screen" id="map-container2">
+            <svg id="map2" viewBox="100 50 400 400" width="100%" height="425" preserveAspectRatio="xMidYMax slice" x="0"
+                y="0">
+            </svg>
+        </div>
+        <div class="map-info small-screen" id="map-info2">
+            <h3>Select country/state</h3>
+        </div>
+
+        <h1 class="small-screen">Asia</h1>
+        <div class="map-container small-screen" id="map-container3">
+            <svg id="map3" viewBox="525 50 400 400" width="100%" height="425" preserveAspectRatio="xMidYMin slice" x="0"
+                y="0">
+            </svg>
+        </div>
+        <div class="map-info small-screen" id="map-info3">
+            <h3>Select country/state</h3>
+        </div>
+
+        <h1 class="small-screen">Europe & Russia</h1>
+        <div class="map-container small-screen" id="map-container4">
+            <svg id="map4" viewBox="400 -175 600 600" width="100%" height="425" preserveAspectRatio="xMidYMin slice"
+                x="0" y="0">
+            </svg>
+        </div>
+        <div class="map-info small-screen" id="map-info4">
+            <h3>Select country/state</h3>
+        </div>
+
+        <h1 class="small-screen">Africa</h1>
+        <div class="map-container small-screen" id="map-container5">
+            <svg id="map5" viewBox="350 125 400 400" width="100%" height="425" preserveAspectRatio="xMidYMin slice"
+                x="0" y="0">
+            </svg>
+        </div>
+        <div class="map-info small-screen" id="map-info5">
+            <h3>Select country/state</h3>
+        </div>
+
+        <!------------------------------------------ footer --------------------------------------------->
+
+        <footer>
+            <div id="leave-a-message">
+                <h1>Leave Us a Message</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p>Contact us:</p>
+                <p>info@metaverser.dev</p>
+                <address>Los Angeles, California</address>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!------------------------------------------ scripts --------------------------------------------->
+
+    <script src="/scripts/map.js" type="module"></script>
+
+</body>
+
+</html>

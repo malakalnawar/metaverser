@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Metaverser</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Centralizing information for those developing the metaverse.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Metaverse Virtual Reality Augmented Reality VR AR XR">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- handlebars.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"
+        integrity="sha512-qwi9BHx0+QtW8krMaXObe76bUkPf8nRJOufgT5GS7C74s2sV+neksCVUhAWuMSXxZzKHiM3RuADPmWbhguWEIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- handlebars template -->
+    <script id="headline-template" type="text/x-handlebars-template">
+            <div class="news">
+                <a href="{{URL}}"><h1>{{title}}</h1></a>
+                <p>{{summary}}</p>
+                <div class="metanews">
+                    <p>{{website}}</p>
+                    <time datetime="{{datetime}}">{{formattedDate}}</time>
+                </div>
+            </div>
+            <img src="{{imageSrc}}" alt="{{imageAlt}}">
+        </script>
+    <!-- handlebars template -->
+    <script id="news-piece-template" type="text/x-handlebars-template">
+            <div class="news">
+                <a href="{{URL}}"><h3>{{title}}</h3></a>
+                <p>{{summary}}</p>
+            </div>
+            <img src="{{imageSrc}}" alt="{{imageAlt}}">
+            <div class="metanews">
+                <p>{{website}}</p>
+                <time datetime="{{datetime}}">{{formattedDate}}</time>
+            </div>
+        </script>
+</head>
+
+<body>
+
+    <!------------------------------------------ header and navigation --------------------------------------------->
+
+    <header id="header" class="col-2">
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="/index.html">Metaverser</a>
+            </div>
+
+            <div class="dropdown-button">
+                <button id="dropdown-toggle">Menu</button>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="navbar">
+                    <a href="/news.html">News</a>
+                    <a href="/profiles.html">Profiles</a>
+                    <a href="/software.html">Software</a>
+                    <a href="/specs.html">Specs & Regulations</a>
+                    <a href="/map.html">Map</a>
+                </nav>
+
+                <div class="settings" id="settings">
+                    <button id="change-theme">Theme</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------------------------ main content --------------------------------------------->
+
+    <div class="content" id="news-content">
+
+        <!------------------------------------------ introduction --------------------------------------------->
+
+        <div class="content-intro">
+            <h1>News & Articles</h1>
+            <p>Welcome to the News & Articles section. Here, we are committed to delivering the latest updates and
+                insights on the rapidly evolving metaverse landscape. As dedicated developers ourselves, we understand
+                the importance of staying informed about the latest technologies and innovations shaping this dynamic
+                field. Our mission is to provide you with a curated collection of news, articles, and analysis,
+                empowering you to stay ahead of the curve and make informed decisions in your metaverse development
+                journey. With our finger on the pulse of the industry, we strive to offer a comprehensive, bird's eye
+                view of the metaverse ecosystem, ensuring that you have the knowledge and resources you need to thrive
+                in this exciting new frontier.</p>
+        </div>
+
+        <!------------------------------------------ search bar --------------------------------------------->
+
+        <search class="search-bar" id="search">
+            <form id="search-form">
+                <input id="search-input" type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </search>
+
+        <!------------------------------------------ headline news --------------------------------------------->
+
+        <div class="col-12" id="headline">
+
+            <!-- rendered template -->
+
+        </div>
+
+        <!------------------------------------------ news grid --------------------------------------------->
+
+        <div class="news-container" id="news-container">
+
+            <!-- rendered templates -->
+
+        </div>
+
+        <!-- load more button -->
+        <button id="load">Load More</button>
+
+        <!------------------------------------------ footer --------------------------------------------->
+
+        <footer>
+            <div id="leave-a-message">
+                <h1>Leave Us a Message</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p>Contact us:</p>
+                <p>info@metaverser.dev</p>
+                <address>Los Angeles, California</address>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!------------------------------------------ scripts --------------------------------------------->
+
+    <script src="/scripts/news.js"></script>
+
+</body>
+
+</html>

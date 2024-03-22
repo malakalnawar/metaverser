@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Metaverser</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Centralizing information for those developing the metaverse.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Metaverse Virtual Reality Augmented Reality VR AR XR">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- handlebars.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"
+        integrity="sha512-qwi9BHx0+QtW8krMaXObe76bUkPf8nRJOufgT5GS7C74s2sV+neksCVUhAWuMSXxZzKHiM3RuADPmWbhguWEIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- handlebars template -->
+    <script id="app-template" type="text/x-handlebars-template">
+            <a href="{{website}}"><img src="{{imgSrc}}" alt="{{imgAlt}}"/></a>
+            <a href="{{website}}"><p>{{name}}</p></a>
+        </script>
+</head>
+
+<body>
+
+    <!------------------------------------------ header and navigation --------------------------------------------->
+
+    <header id="header" class="col-2">
+        <div class="header-container">
+
+            <div class="logo-container">
+                <a href="/index.html">Metaverser</a>
+            </div>
+
+            <div class="dropdown-button">
+                <button id="dropdown-toggle">Menu</button>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="navbar">
+                    <a href="/news.html">News</a>
+                    <a href="/profiles.html">Profiles</a>
+                    <a href="/software.html">Software</a>
+                    <a href="/specs.html">Specs & Regulations</a>
+                    <a href="/map.html">Map</a>
+                </nav>
+
+                <div class="settings" id="settings">
+                    <button id="change-theme">Theme</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------------------------ main content --------------------------------------------->
+
+    <div class="content" id="software-content">
+
+        <!------------------------------------------ introduction --------------------------------------------->
+
+        <div class="content-intro">
+            <h1>Software (Gaming Engines & Frameworks)</h1>
+        </div>
+
+        <div class="piece">
+            <div class="top-piece">
+                <p>Game engines and web frameworks like Babylon.js play a crucial role in the development of the
+                    metaverse by providing powerful tools and technologies that enable the creation of immersive virtual
+                    environments, interactive experiences, and interconnected digital worlds. These platforms offer a
+                    range of features and capabilities that are essential for building the complex and dynamic virtual
+                    spaces that define the metaverse.</p>
+
+                <!------------------------------------------ embedded --------------------------------------------->
+
+                <iframe width="560" height="300" src="https://www.youtube.com/embed/G4cEXWosFtA" frameborder="0"
+                    allowfullscreen></iframe>
+
+            </div>
+            <div class="bottom-piece">
+                <p>One of the key reasons why game engines are important for developing the metaverse is their ability
+                    to handle advanced graphics rendering and real-time 3D rendering. Game engines like Unity, Unreal
+                    Engine, and Babylon.js are specifically designed to render high-quality 3D graphics, simulate
+                    realistic physics, and support complex visual effects. In the context of the metaverse, where users
+                    expect rich and immersive virtual environments, these capabilities are essential for creating
+                    engaging and lifelike experiences.</p>
+                <p>Moreover, game engines provide comprehensive development environments that streamline the creation
+                    process and empower developers to build sophisticated virtual worlds with greater efficiency and
+                    ease. These platforms offer a wide range of built-in tools, libraries, and assets for modeling,
+                    animation, scripting, and optimization, enabling developers to focus on creativity and innovation
+                    rather than reinventing the wheel. Additionally, game engines often support collaborative workflows,
+                    version control, and asset management features, facilitating teamwork and coordination among
+                    developers working on metaverse projects.</p>
+            </div>
+        </div>
+
+        <!------------------------------------------ app sections --------------------------------------------->
+
+        <h1>Game Engines</h1>
+        <div id="controller0">
+            <button id="left-arrow0">&larr;</button>
+            <div class="apps">
+                <div class="app-container" id="app-container0">
+
+                    <!-- rendered template -->
+
+                </div>
+            </div>
+            <button id="right-arrow0">&rarr;</button>
+        </div>
+
+        <h1>Web Development Frameworks</h1>
+        <div id="controller1">
+            <button id="left-arrow1">&larr;</button>
+            <div class="apps">
+                <div class="app-container" id="app-container1">
+
+                    <!-- rendered template -->
+
+                </div>
+            </div>
+            <button id="right-arrow1">&rarr;</button>
+        </div>
+
+        <!------------------------------------------ footer --------------------------------------------->
+
+        <footer>
+            <div id="leave-a-message">
+                <h1>Leave Us a Message</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p>Contact us:</p>
+                <p>info@metaverser.dev</p>
+                <address>Los Angeles, California</address>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!------------------------------------------ scripts --------------------------------------------->
+
+    <script src="/scripts/software.js"></script>
+
+</body>
+
+</html>

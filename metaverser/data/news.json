@@ -1,0 +1,123 @@
+[
+    {
+        "title": "Will Life Be Better in the Metaverse?",
+        "summary": "WIRED's spiritual advice columnist on the lure of augmented reality and what may get left behind here on earth.",
+        "website": "WIRED",
+        "URL": "https://www.wired.com/story/will-life-be-better-in-the-metaverse/",
+        "datetime": "2023-11-13 07:00",
+        "formattedDate": "11/13/2023",
+        "imageSrc": "img/news/newsA0000.webp",
+        "imageAlt": "A person wearing virtual reality glasses looking into screen where another person is looking back at them",
+        "headline": true
+    },
+    {
+        "title": "What should be considered a crime in VR worlds?",
+        "summary": "Ellie Muir explores how virtual worlds are rife with rape culture and misogyny, and asks how we are going to make them safe to experience",
+        "website": "Independent",
+        "URL": "https://www.independent.co.uk/life-style/metaverse-assault-meaning-virtual-reality-b2483435.html",
+        "datetime": "2024-01-30 06:12",
+        "formattedDate": "1/30/2024",
+        "imageSrc": "img/news/newsA0001.avif",
+        "imageAlt": "Girl wearing virtual reality headset",
+        "headline": false
+    },
+    {
+        "title": "Saudi Arabia launches 'cultural' metaverse to celebrate founding day",
+        "summary": "The Saudi government’s Cultural Universe metaverse initiative takes a user through the long history of Saudi Arabia dating back to 1727.",
+        "website": "CoinTelegraph",
+        "URL": "https://cointelegraph.com/news/saudi-arabia-launches-cultural-metaverse",
+        "datetime": "2024-02-26 00:00",
+        "formattedDate": "2/26/2024",
+        "imageSrc": "img/news/newsA0002.avif",
+        "imageAlt": "Three men wear 'thawb' converse with eachother" ,
+        "headline": false
+    },
+    {
+        "title": "Metaverse for healthcare market expected to reach almost $500B by 2033",
+        "summary": "Telemedicine and new surgical methods and training paradigms are driving growth.",
+        "website": "CoinTelegraph",
+        "URL": "https://cointelegraph.com/news/metaverse-web3-healthcare-market-expected-reach-500-billion-2033",
+        "datetime": "2024-02-23 00:00",
+        "formattedDate": "2/23/2024",
+        "imageSrc": "img/news/newsA0003.avif",
+        "imageAlt": "Man wearing virtual reality headset lays on couch with hologram doctor taking notes next to him",
+        "headline": false
+    },
+    {
+        "title": "Mumbai launches metaverse to showcase infrastructure innovations in India",
+        "summary": "Mumbai, the financial capital of India, has launched a metaverse initiative aimed at previewing and showcasing the city's infrastructure developments.",
+        "website": "Crypto.news",
+        "URL": "https://crypto.news/mumbai-launches-metaverse-to-showcase-infrastructure-innovations-in-india/",
+        "datetime": "2024-02-20 13:13",
+        "formattedDate": "2/20/2024",
+        "imageSrc": "img/news/newsA0004.webp",
+        "imageAlt": "A digital drawing of a temple in India",
+        "headline": false
+    },
+    {
+        "title": "China augmented reality start-up Rokid gets US$70 million in new funding round led by Hefei government",
+        "summary": "Rokid will set up its industrial metaverse headquarters, ecosystem hub and R&D centre in Hefei's New Station Hi-Tech Zone",
+        "website": "SCMP",
+        "URL": "https://www.scmp.com/tech/policy/article/3247968/china-augmented-reality-start-rokid-gets-us70-million-new-funding-round-led-hefei-government",
+        "datetime": "2024-01-10 20:01",
+        "formattedDate": "1/10/2024",
+        "imageSrc": "img/news/newsA0009.webp",
+        "imageAlt": "Mannequin head wearing augmented reality glasses",
+        "headline": false
+    },
+    {
+        "title": "Top 7 VR Training Companies In 2024: Revolutionizing Learning",
+        "summary": "The top VR training companies leading the charge in 2024, reshaping the future of learning with innovative solutions and cutting-edge technology.",
+        "website": "The Metaverse Insider",
+        "URL": "https://metaverseinsider.tech/2024/02/19/top-7-vr-training-companies-in-2024-revolutionizing-learning/",
+        "datetime": "2024-02-19 00:00",
+        "formattedDate": "2/19/2024",
+        "imageSrc": "img/news/newsA0010.webp",
+        "imageAlt": "Mannequin head wearing virtual reality headset",
+        "headline": false
+    },
+    {
+        "title": "EU Lawmakers Call to Reduce Tech Dependency on Other Countries With Metaverse Strategy",
+        "summary": "The European Parliament's Committee on Internal Market and Consumer Protection wants the bloc to take the lead on shaping virtual worlds according to EU values.",
+        "website": "CoinDesk",
+        "URL": "https://www.coindesk.com/policy/2023/11/28/eu-lawmakers-call-to-reduce-tech-dependency-on-other-countries-with-metaverse-strategy/",
+        "datetime": "2023-11-28 02:25",
+        "formattedDate": "11/28/2023",
+        "imageSrc": "img/news/newsA0005.avif",
+        "imageAlt": "Girl wearing virtual reality headset",
+        "headline": false
+    },
+    {
+        "title": "Meta Remains Committed to the Metaverse Despite $13.7B Loss in 2022",
+        "summary": "Meta's pivot cost the social media giant over $20 billion since 2021, but the company's founder and CEO Mark Zuckerberg says the firm isn't giving up on the metaverse anytime soon.",
+        "website": "CoinDesk",
+        "URL": "https://www.coindesk.com/markets/2023/07/27/meta-remains-committed-to-the-metaverse-mark-zuckerberg-says/",
+        "datetime": "2023-07-26 21:07",
+        "formattedDate": "7/26/2023",
+        "imageSrc": "img/news/newsA0006.png",
+        "imageAlt": "Meta's Logo",
+        "headline": false
+    }
+    ,
+    {
+        "title": "BIS raises concerns over future of metaverses, advocates for strong public policy framework",
+        "summary": "The BIS calls for a concerted effort among global regulators, central banks, and policymakers",
+        "website": "CryptoSlate",
+        "datetime": "2024-02-08 05:00",
+        "formattedDate": "2/8/2024",
+        "imageSrc": "img/news/newsA0007.jpeg",
+        "imageAlt": "Girl wearing virtual reality headset",
+        "headline": false
+    },
+    {
+        "title": "Roblox's Remarkable Growth and the Rise of the Metaverse",
+        "summary": "Roblox Corp., a leader in online gaming, surpasses earnings estimates with a 30% YoY revenue growth and strategic moves in AI and VR. Explore its role in shaping the Metaverse and digital entertainment.",
+        "website": "BNN",
+        "URL": "https://bnnbreaking.com/tech/robloxs-remarkable-growth-and-the-rise-of-the-metaverse",
+        "datetime": "2024-02-16 09:08",
+        "formattedDate": "2/16/2024",
+        "imageSrc": "img/news/newsA0008.webp",
+        "imageAlt": "Graph displaying data on Roblox's profits",
+        "headline": false
+    }
+]

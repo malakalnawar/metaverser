@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Metaverser</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Centralizing information for those developing the metaverse.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Metaverse Virtual Reality Augmented Reality VR AR XR">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- handlebars.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"
+        integrity="sha512-qwi9BHx0+QtW8krMaXObe76bUkPf8nRJOufgT5GS7C74s2sV+neksCVUhAWuMSXxZzKHiM3RuADPmWbhguWEIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- D3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.js"
+        integrity="sha512-NmSTfudjn1FCaFMQ+f4xveBmwRJn5ep8Wu+YOeq+CeExhFtKvwhfKVXFX3tGxoGWxu8Fl83qm9nE8/Hkc1dWZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- handlebars template -->
+    <script id="profile-template" type="text/x-handlebars-template">
+            <img src="{{imageSrc}}" alt="{{imageAlt}}">
+            <div class="info">
+                <h1><a href="{{website}}">{{name}}</a></h1>
+                <p>{{description}}...<a href="{{moreInfo}}">wiki</a></p>
+                <p>Release date: <time>{{formattedDate}}</time></p>
+            </div>
+        </script>
+</head>
+
+<body>
+
+    <!------------------------------------------ header and navigation --------------------------------------------->
+
+    <header id="header" class="col-2">
+        <div class="header-container">
+
+            <div class="logo-container">
+                <a href="/index.html">Metaverser</a>
+            </div>
+
+            <div class="dropdown-button">
+                <button id="dropdown-toggle">Menu</button>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="navbar">
+                    <a href="/news.html">News</a>
+                    <a href="/profiles.html">Profiles</a>
+                    <a href="/software.html">Software</a>
+                    <a href="/specs.html">Specs & Regulations</a>
+                    <a href="/map.html">Map</a>
+                </nav>
+
+                <div class="settings" id="settings">
+                    <button id="change-theme">Theme</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------------------------ main content --------------------------------------------->
+
+    <div class="content" id="profile-content">
+
+        <!------------------------------------------ introduction --------------------------------------------->
+
+        <div class="content-intro">
+            <h1>Porfiles</h1>
+            <p>Welcome to the Profiles section. Here, we provide comprehensive profiles for each metaverse that
+                currently exists, offering developers valuable insights into the diverse array of virtual worlds
+                available. In a rapidly expanding metaverse landscape, understanding the unique features and
+                characteristics of each platform is crucial for developers looking to explore new opportunities and make
+                informed decisions.</p>
+        </div>
+
+        <!------------------------------------------ graph --------------------------------------------->
+
+        <div class="graph-container" id="container"></div>
+        <p class="cite"><i>Statistical chart for the number of Mataverse-related publications in Web of Science and
+                Scopus.</i></p>
+        <p class="cite">Source: ieeexplore.ieee.org, 'A Survey on the Metaverse: The State-of-the-Art, Technologies,
+            Applications, and Challenges. (H. Wang et al.)', 2023. [Online]. Available: <a
+                href="https://ieeexplore.ieee.org/document/10130406">here</a>. [Accessed: 25- Feb- 2024]</p>
+
+        <!-- sort button -->
+        <div class="sort">
+            <button class="sort-button" id="sort-button">Sort<span class="arrow">&#9660;</span></button>
+            <div class="dropdown-content" id="dropdown">
+                <a id="newest">Newest</a>
+                <a id="oldest">Oldest</a>
+            </div>
+        </div>
+
+        <!------------------------------------------ profiles grid --------------------------------------------->
+
+        <div class="profile-container" id="profile-container">
+
+            <!-- rendered templates -->
+
+        </div>
+
+        <!-- load more button -->
+        <div id="load-button">
+            <button id="load">Load More</button>
+        </div>
+
+        <!------------------------------------------ footer --------------------------------------------->
+
+        <footer>
+            <div id="leave-a-message">
+                <h1>Leave Us a Message</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p>Contact us:</p>
+                <p>info@metaverser.dev</p>
+                <address>Los Angeles, California</address>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!------------------------------------------ scripts --------------------------------------------->
+
+    <script src="/scripts/profiles.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Metaverser</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Centralizing information for those developing the metaverse.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Metaverse Virtual Reality Augmented Reality VR AR XR">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- handlebars.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+        integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <!------------------------------------------ header and navigation --------------------------------------------->
+
+    <header id="header" class="col-2">
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="/index.html">Metaverser</a>
+            </div>
+
+            <div class="dropdown-button">
+                <button id="dropdown-toggle">Menu</button>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="navbar">
+                    <a href="/news.html">News</a>
+                    <a href="/profiles.html">Profiles</a>
+                    <a href="/software.html">Software</a>
+                    <a href="/specs.html">Specs & Regulations</a>
+                    <a href="/map.html">Map</a>
+                </nav>
+
+                <div class="settings" id="settings">
+                    <button id="change-theme">Theme</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------------------------ main content --------------------------------------------->
+
+    <div class="content" id="specs-content">
+
+        <!------------------------------------------ introduction --------------------------------------------->
+
+        <div class="content-intro">
+            <h1>Specifications & Regulations</h1>
+            <p>Welcome to the Specifications and Regulations section. Here, we compile and display tables detailing tech
+                standardization projects for virtual environments and regulations (laws) that play a crucial role in
+                shaping the metaverse landscape. As developers, understanding these standards and regulations is
+                essential for producing high-quality software and ensuring compliance with legal requirements. Our
+                curated tables provide valuable insights into the latest tech standardization projects, such as
+                specifications for 3D graphics interchange and access to virtual reality devices, as well as relevant
+                regulations aimed at protecting users in the metaverse. By staying informed about these developments,
+                developers can create better software, foster user trust, and contribute to the growth of a safe and
+                vibrant metaverse ecosystem.</p>
+        </div>
+
+        <!------------------------------------------ tables --------------------------------------------->
+
+        <h1>Specifications</h1>
+
+        <table class="spec-table">
+            <thead>
+                <tr>
+                    <th scope="col">Project</th>
+                    <th scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Universal Scene Description</th>
+                    <td>A specification for 3D computer graphics interchange created by Pixar and supported by Blender,
+                        Apple's SceneKit and Autodesk 3ds Max. The technology company NVIDIA announced in 2021 they
+                        would adopt USD for their metaverse development tools.</td>
+                </tr>
+                <tr>
+                    <th scope="row">glTF</th>
+                    <td>A specification for the efficient transmission and loading of 3D scenes and models by engines
+                        and applications created by the Khronos Group, an industry consortium developing royalty free
+                        open standards. In August 2022 it was announced that glTF 2.0 had been released as the ISO/IEC
+                        12113:2022 International Standard.</td>
+                </tr>
+                <tr>
+                    <th scope="row">OpenXR</th>
+                    <td>An open standard for access to virtual and augmented reality devices and experiences. It has
+                        been adopted by Microsoft for HoloLens 2, Meta Platforms for the Oculus Quest, HTC for the HTC
+                        Vive, Qualcomm for the Snapdragon Spaces XR Developer Platform, and Valve for SteamVR.</td>
+                </tr>
+            </tbody>
+            <caption>Virtual environment standardization projects</caption>
+            <caption>Source: Wikipedia.org, 'Metaverse/Software', 2024. [Online]. Available: <a
+                    href="https://en.wikipedia.org/wiki/Metaverse#Software">here</a>. [Accessed: 3- Mar- 2024]</caption>
+        </table>
+
+        <h1>Regulations</h1>
+
+        <table class="reg-table">
+            <thead>
+                <tr>
+                    <th scope="col">Act</th>
+                    <th scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Digital Millennium Copyright Act (DMCA)</th>
+                    <td>The DMCA addresses issues related to copyright infringement on the internet, including
+                        provisions for online service providers to address and respond to claims of copyright
+                        infringement. Given the potential for user-generated content and intellectual property issues in
+                        the metaverse, the DMCA could be relevant.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Children's Online Privacy Protection Act (COPPA)</th>
+                    <td>COPPA regulates the online collection of personal information from children under the age of 13.
+                        In virtual environments and social platforms within the metaverse, compliance with COPPA is
+                        crucial when dealing with users who are minors.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Computer Fraud and Abuse Act (CFAA)</th>
+                    <td>The CFAA prohibits various forms of computer-related activities, including unauthorized access
+                        to computer systems and networks. This act could be relevant to issues such as hacking,
+                        cybersecurity, and unauthorized access within the metaverse.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electronic Communications Privacy Act (ECPA)</th>
+                    <td>The ECPA sets standards for government surveillance of electronic communications and provides
+                        privacy protections for electronic communications such as email and online messaging. As
+                        communication and interaction within the metaverse increasingly occur through digital channels,
+                        the ECPA may have implications for privacy rights.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Telecommunications Act of 1996</th>
+                    <td>Implications for communication services, competition, and regulation within the digital sphere,
+                        which could impact the metaverse.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Communications Decency Act (CDA)</th>
+                    <td>Implications for online communication, content regulation, and liability for internet
+                        intermediaries. While certain provisions of the CDA have been subject to legal challenges and
+                        amendments over the years, it remains an important law with potential relevance to the
+                        regulation of the metaverse. Here's how the CDA could impact the metaverse.</td>
+                </tr>
+            </tbody>
+            <caption>
+                Acts that may play a role in Metaverse Law (USA)
+            </caption>
+        </table>
+
+        <!------------------------------------------ footer --------------------------------------------->
+
+        <footer>
+            <div id="leave-a-message">
+                <h1>Leave Us a Message</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p>Contact us:</p>
+                <p>info@metaverser.dev</p>
+                <address>Los Angeles, California</address>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!------------------------------------------ scripts --------------------------------------------->
+
+    <script src="scripts/specs.js"></script>
+
+</body>
+
+</html>

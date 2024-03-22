@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Unity",
+        "imgSrc": "img/software/softA0000.webp",
+        "imgAlt": "Unity logo",
+        "website": "https://unity.com/"
+    },
+    {
+        "name": "Unreal Engine",
+        "imgSrc": "img/software/softA0001.png",
+        "imgAlt": "Unreal Engine logo",
+        "website": "https://www.unrealengine.com/en-US"
+    },
+    {
+        "name": "CryEngine",
+        "imgSrc": "img/software/softA0002.png",
+        "imgAlt": "CryEngine logo",
+        "website": "https://www.cryengine.com/"
+    },
+    {
+        "name": "Godot",
+        "imgSrc": "img/software/softA0003.png",
+        "imgAlt": "Godot logo",
+        "website": "https://godotengine.org/"
+    },
+    {
+        "name": "Amazon Lumberyard",
+        "imgSrc": "img/software/softA0004.png",
+        "imgAlt": "Amazon Lumberyard logo",
+        "website": "https://aws.amazon.com/lumberyard/"
+    },
+    {
+        "name": "Frostbite",
+        "imgSrc": "img/software/softA0005.png",
+        "imgAlt": "Frostbite logo",
+        "website": "https://www.ea.com/frostbite/engine"
+    },
+    {
+        "name": "Defold",
+        "imgSrc": "img/software/softA0006.jpeg",
+        "imgAlt": "Defold logo",
+        "website": "https://defold.com/"
+    },
+    {
+        "name": "Unigine",
+        "imgSrc": "img/software/softA0007.png",
+        "imgAlt": "Unigine logo",
+        "website": "https://unigine.com/"
+    },
+    {
+        "name": "GameMaker",
+        "imgSrc": "img/software/softA0008.png",
+        "imgAlt": "GameMaker logo",
+        "website": "https://gamemaker.io/en"
+    },
+    {
+        "name": "Stride",
+        "imgSrc": "img/software/softA0009.png",
+        "imgAlt": "Stride logo",
+        "website": "https://www.stride3d.net/"
+    },
+    {
+        "name": "MonoGame",
+        "imgSrc": "img/software/softA0010.png",
+        "imgAlt": "MonoGame logo",
+        "website": "https://monogame.net/"
+    },
+    {
+        "name": "Leadwerks",
+        "imgSrc": "img/software/softA0011.jpeg",
+        "imgAlt": "Leadwerks logo",
+        "website": "https://www.leadwerks.com/"
+    },
+    {
+        "name": "Torque",
+        "imgSrc": "img/software/softA0012.png",
+        "imgAlt": "Torque logo",
+        "website": "https://torque3d.org/"
+    }
+]

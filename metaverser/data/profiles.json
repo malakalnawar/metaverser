@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Active Worlds",
+        "description": "An online virtual world, developed by ActiveWorlds Inc., a company based in Newburyport, Massachusetts.",
+        "website": "https://www.activeworlds.com/",
+        "moreInfo": "https://en.wikipedia.org/wiki/Active_Worlds",
+        "formattedDate": "6/28/1995",
+        "imageSrc": "img/profiles/profA0000.png",
+        "imageAlt": "Active Worlds logo"
+    },
+    {
+        "name": "Decentraland",
+        "description": "A 3D virtual world browser-based platform. Users may buy virtual plots of land in the platform as NFTs via the MANA cryptocurrency, which uses the Ethereum blockchain.",
+        "website": "https://decentraland.org/",
+        "moreInfo": "https://en.wikipedia.org/wiki/Decentraland",
+        "formattedDate": "2/20/2020",
+        "imageSrc": "img/profiles/profA0001.png",
+        "imageAlt": "Decentraland logo"
+    },
+    {
+        "name": "Roblox",
+        "description": "An online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.",
+        "website": "https://www.roblox.com/",
+        "moreInfo": "https://en.wikipedia.org/wiki/Roblox",
+        "formattedDate": "11/1/2006",
+        "imageSrc": "img/profiles/profA0002.webp",
+        "imageAlt": "Roblox logo"
+    },
+    {
+        "name": "Voxels (Cryptovoxels)",
+        "description": "A is a virtual world and metaverse, powered by the Ethereum blockchain",
+        "website": "https://www.voxels.com/",
+        "moreInfo": "https://wiki.cryptovoxels.com/",
+        "formattedDate": "5/6/2018",
+        "imageSrc": "img/profiles/profA0003.png",
+        "imageAlt": "Voxels logo"
+    },
+    {
+        "name": "Somnium Space",
+        "description": "A VR is an open, social & persistent VR platform built on blockchain. Buy land, build or import NFTs and instantly explore. Universe shaped entirely by players!",
+        "website": "https://somniumspace.com/",
+        "moreInfo": "https://somniumtimes.com/",
+        "formattedDate": "12/17/2018",
+        "imageSrc": "img/profiles/profA0004.webp",
+        "imageAlt": "Somnium Space logo"
+    },
+    {
+        "name": "Horizon Worlds",
+        "description": "A free virtual reality, online video game with an integrated game creation system developed and published by Meta Platforms.",
+        "website": "https://horizon.meta.com/",
+        "moreInfo": "https://en.wikipedia.org/wiki/Horizon_Worlds",
+        "formattedDate": "12/9/2021",
+        "imageSrc": "img/profiles/profA0005.jpeg",
+        "imageAlt": "Horizon Worlds logo"
+    },
+    {
+        "name": "Second Life",
+        "description": "An online multimedia platform that allows people to create an avatar for themselves and then interact with other users and user-created content within a multi-user online virtual world.",
+        "website": "https://secondlife.com/",
+        "moreInfo": "https://en.wikipedia.org/wiki/Second_Life",
+        "formattedDate": "6/23/2003",
+        "imageSrc": "img/profiles/profA0006.png",
+        "imageAlt": "Second Life logo"
+    },
+    {
+        "name": "Sinespace",
+        "description": "A free-to-play massively multiplayer online Unity 3D-based platform created and published by Sine Wave Entertainment. It enables users to create and sell 3D content and interact with others as 3D avatars.",
+        "website": "https://sine.space/",
+        "moreInfo": "https://en.wikipedia.org/wiki/Sinespace",
+        "formattedDate": "11/1/2016",
+        "imageSrc": "img/profiles/profA0007.png",
+        "imageAlt": "Sinespace logo"
+    },
+    {
+        "name": "VRChat",
+        "description": "An online virtual world platform created by Graham Gaylor and Jesse Joudrey and operated by VRChat, Inc. The platform allows users to interact with others with user-created 3D avatars and worlds.",
+        "website": "https://hello.vrchat.com/",
+        "moreInfo": "https://en.wikipedia.org/wiki/VRChat",
+        "formattedDate": "1/16/2014",
+        "imageSrc": "img/profiles/profA0008.png",
+        "imageAlt": "VRChat logo"
+    }
+]

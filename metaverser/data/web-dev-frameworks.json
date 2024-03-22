@@ -1,0 +1,50 @@
+[
+    {
+        "name": "A-Frame",
+        "imgSrc": "img/software/softA0013.jpeg",
+        "imgAlt": "A-Frame logo",
+        "website": "https://aframe.io/"
+    },
+    {
+        "name": "Babylon.js",
+        "imgSrc": "img/software/softA0014.png",
+        "imgAlt": "Babylon.js logo",
+        "website": "https://www.babylonjs.com/"
+    },
+    {
+        "name": "Three.js",
+        "imgSrc": "img/software/softA0015.png",
+        "imgAlt": "Three.js logo",
+        "website": "https://threejs.org/"
+    },
+    {
+        "name": "PlayCanvas",
+        "imgSrc": "img/software/softA0016.png",
+        "imgAlt": "PlayCanvas logo",
+        "website": "https://playcanvas.com/"
+    },
+    {
+        "name": "Vue",
+        "imgSrc": "img/software/softA0017.png",
+        "imgAlt": "Vue logo",
+        "website": "https://info.e-onsoftware.com/vue/overview"
+    },
+    {
+        "name": "Amazon Sumerian",
+        "imgSrc": "img/software/softA0018.jpeg",
+        "imgAlt": "Amazon Sumerian logo",
+        "website": "https://aws.amazon.com/blogs/aws/amazon-sumerian-now-generally-available/"
+    },
+    {
+        "name": "JanusVR",
+        "imgSrc": "img/software/softA0020.png",
+        "imgAlt": "JanusVR logo",
+        "website": "https://janusvr.com/"
+    },
+    {
+        "name": "Vircadia",
+        "imgSrc": "img/software/softA0021.jpeg",
+        "imgAlt": "Vircadia logo",
+        "website": "https://vircadia.com/"
+    }
+]

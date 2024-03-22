@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Metaverser</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Centralizing information for those developing the metaverse.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Metaverse Virtual Reality Augmented Reality VR AR XR">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- handlebars.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+        integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <!------------------------------------------ header and navigation --------------------------------------------->
+    <header id="header" class="col-2">
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="/index.html">Metaverser</a>
+            </div>
+
+            <div class="dropdown-button">
+                <button id="dropdown-toggle">Menu</button>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="navbar">
+                    <a href="/news.html">News</a>
+                    <a href="/profiles.html">Profiles</a>
+                    <a href="/software.html">Software</a>
+                    <a href="/specs.html">Specs & Regulations</a>
+                    <a href="/map.html">Map</a>
+                </nav>
+
+                <div class="settings" id="settings">
+                    <button id="change-theme">Theme</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------------------------ main content --------------------------------------------->
+
+    <div class="content" id="home-content">
+
+        <!------------------------------------------ introduction --------------------------------------------->
+
+        <div>
+            <h1>What is Metaverser?</h1>
+            <h3>Metaverser.org is an organization based in Los Angeles, California, dedicated to centralizing
+                information on the metaverse. We are a group of developers who believe in supplying the demand for new
+                spaces, empowering developers with news and data on the latest technologies and innovations in the
+                field.</h3>
+        </div>
+
+        <!------------------------------------------ sections --------------------------------------------->
+
+        <div class="section-container">
+            <a href="/news.html">
+                <div class="lg-section col-11">
+                    <div>
+                        <h2>News</h2>
+                        <p>Stay up to date on the latest news available on the metaverse. We monitor and collect news
+                            from hundreds of sources that cover the metaverse and display them here in order to give you
+                            a complete overview of what's going on in the field.</p>
+                    </div>
+                    <img src="/img/gif/news.gif" alt="news broadcaster nervous while trying to share emergency news" />
+                </div>
+            </a>
+
+            <a href="/profiles.html">
+                <div class="sm-section col-5">
+                    <h2>Profiles</h2>
+                    <p>Check out what metaverses already exist. Here we profile each metaverse with a small description
+                        and a link to its homepage.</p>
+                    <img src="/img/gif/profiles.gif" alt="a man getting a mug shot" />
+                </div>
+            </a>
+
+            <a href="/software.html">
+                <div class="sm-section col-6">
+                    <h2>Software</h2>
+                    <p>A list of software currently being used to develop different parts of metaverse. Here you will
+                        find the most commonly used game engines, libraries and frameworks.</p>
+                    <img src="/img/gif/software.gif" alt="a girl holding up and drill and a hammer" />
+                </div>
+            </a>
+        </div>
+
+        <!------------------------------------------ definition --------------------------------------------->
+
+        <div>
+            <h1>Are you a Metaverser?</h1>
+            <h2>Metaverser (noun)</h2>
+            <h3>/'mƐtƏˌvɜrsƏr/</h3>
+            <h3>An individual who develops virtual extensions of the real world, enabling access to spaces governed by
+                rules created by their users.</h3>
+        </div>
+
+        <!------------------------------------------ sections --------------------------------------------->
+
+        <div class="section-container">
+            <a href="/specs.html">
+                <div class="sm-section col-5">
+                    <h2>Specs & Regulations</h2>
+                    <p>Learn about the current techincal specifications to help guide you in building better software.
+                        Also, learn about what laws are governing the metaverse externally and internally.</p>
+                    <img src="/img/gif/specs&regs.gif" alt="a lawyer walks in the courtroom and finds his chair" />
+                </div>
+            </a>
+
+            <a href="/map.html">
+                <div class="sm-section col-6">
+                    <h2>Map</h2>
+                    <p>The map will help you see who is working on the metaverse and where, from organizations to
+                        private companies around the globe.</p>
+                    <img src="/img/gif/map.gif" alt="a confused puppet looking at a map" />
+                </div>
+            </a>
+        </div>
+
+        <div id="quote">
+            <h2>"Anyone who has lost track of time when using a computer knows the propensity to dream, the urge to make
+                dreams come true and the tendency to miss lunch." - Tim Berners-Lee</h2>
+            <img src="/img/tim-berners-lee.webp" width="300px" alt="Profile of Time Berners-Lee" />
+        </div>
+
+        <!------------------------------------------ footer --------------------------------------------->
+
+        <footer>
+            <div id="leave-a-message">
+                <h1>Leave Us a Message</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="contact-us">
+                <p>Contact us:</p>
+                <p>info@metaverser.dev</p>
+                <address>Los Angeles, California</address>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!------------------------------------------ scripts --------------------------------------------->
+
+    <script src="/scripts/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,371 @@
+[
+    {
+        "country": "Canada",
+        "entities": [
+            {
+                "name": "Highstreet",
+                "URL": "https://www.highstreet.market/",
+                "type": "commercial",
+                "details": "Highstreet is the world's first commerce-centered metaverse with a decentralized finance marketplace for limited edition products.",
+                "location": "Vancouver, British Columbia, Canada"
+            },
+            {
+                "name": "MixMob",
+                "URL": "https://www.mixmob.io/",
+                "type": "commercial",
+                "details": "MixMob is a P2E game built on the metaverse and created by Encore Studios.",
+                "location": "Vancouver, British Columbia, Canada"
+            },
+            {
+                "name": "Nextech AR Solutions",
+                "URL": "https://www.nextechar.com/",
+                "type": "commercial",
+                "details": "Nextech AR Solutions is a publicly traded Metaverse company, specializing in augmented reality solutions, spatial mapping and 3D models.",
+                "location": "Toronto, Ontario, Canada"
+            },
+            {
+                "name": "TerraZero Technologies",
+                "URL": "https://terrazero.com/",
+                "type": "commercial",
+                "details": "TerraZero Technologies is a computer software company specializing in the fields of Web3, blockchain, 3D modelling, and 3D animation.",
+                "location": "Vancouver, British Columbia, Canada"
+            },
+            {
+                "name": "Looking Glass Labs",
+                "URL": "https://www.lgl.io/",
+                "type": "commercial",
+                "details": "Looking Glass Labs is a digital agency specializing in NFT architecture, immersive XR metaverse design and virtual asset royalty streams.",
+                "location": "Vancouver, British Columbia, Canada"
+            }
+        ]
+    },
+    {
+        "country": "California, USA",
+        "entities": [
+            {
+                "name": "Meta",
+                "URL": "https://meta.com/",
+                "type": "commercial",
+                "details": "Meta is a social technology company that enables people to connect, find communities, and grow businesses.",
+                "location": "Menlo Park, California, United States"
+            },
+            {
+                "name": "Roblox",
+                "URL": "https://corp.roblox.com/",
+                "type": "commercial",
+                "details": "Roblox is an online gaming and entertainment platform that offers a shared digital experience that brings people together through play.",
+                "location": "San Mateo, California, United States"
+            },
+            {
+                "name": "Sandbox VR",
+                "URL": "https://sandboxvr.com/",
+                "type": "commercial",
+                "details": "Sandbox VR is a virtual reality startup that offers a premium, fully-immersive virtual reality experience.",
+                "location": "San Francisco, California, United States"
+            },
+            {
+                "name": "Unity",
+                "URL": "https://unity.com/",
+                "type": "commercial",
+                "details": "Unity provides multiplatform tools and services to developers of interactive content.",
+                "location": "San Francisco, California, United States"
+            },
+            {
+                "name": "Vatom",
+                "URL": "https://www.vatom.com/",
+                "type": "commercial",
+                "details": "Vatom enables both companies and individuals to easily engage directly with the emerging Web3.",
+                "location": "Los Angeles, California, United States"
+            }
+        ]
+    },
+    {
+        "country": "Washington, USA",
+        "entities": [
+            {
+                "name": "Aston Labs",
+                "URL": "https://www.astonlabs.co/",
+                "type": "commercial",
+                "details": "Aston Labs operates a decentralized utility organization working to build a carbon-free utility network.",
+                "location": "Seattle, Washington, United States"
+            },
+            {
+                "name": "Odyssey",
+                "URL": "http://odyssey.stream/",
+                "type": "commercial",
+                "details": "Odyssey is a streaming metaverse platform that designs, launches, immerses, connects, and grows user's metaverse presence.",
+                "location": "Seattle, Washington, United States"
+            }
+        ]
+    },
+    {
+        "country": "Massachusetts, USA",
+        "entities": [
+            {
+                "name": "Endstate",
+                "URL": "https://www.endstate.io/",
+                "type": "commercial",
+                "details": "Endstate offers shoes with digital features, enabling customers to avail of a physical product to wear and create a digital twin.",
+                "location": "West Roxbury, Massachusetts, United States"
+            },
+            {
+                "name": "Spaceport Technologies",
+                "URL": "https://www.spaceport.xyz/",
+                "type": "commercial",
+                "details": "Spaceport Technologies offers a wide range of tools for creators to monetize IP in the metaverse.",
+                "location": "Boston, Massachusetts, United States"
+            }
+        ]
+    },
+    {
+        "country": "Texas, USA",
+        "entities": [
+            {
+                "name": "Pocket Worlds",
+                "URL": "https://pocketworlds.com/",
+                "type": "commercial",
+                "details": "Pocket Worlds is an online gaming & entertainment platform that enables Creators to build experiences and consumers to enjoy them.",
+                "location": "Austin, Texas, United States"
+            },
+            {
+                "name": "Space Runners",
+                "URL": "https://spacerunners.com/",
+                "type": "commercial",
+                "details": "Space Runners is the Metaverse Fashion brand focused on cross-chain fashion items that can be plugged into any metaverses and games.",
+                "location": "Houston, Texas, United States"
+            },
+            {
+                "name": "Merge EDU",
+                "URL": "http://www.mergeedu.com/",
+                "type": "commercial",
+                "details": "Merge uses AR/VR/Metaverse technology to create profoundly better learning experiences.",
+                "location": "San Antonio, Texas, United States"
+            }
+        ]
+    },
+    {
+        "country": "New York, USA",
+        "entities": [
+            {
+                "name": "Pixelmon",
+                "URL": "https://www.pixelmon.ai/",
+                "type": "commercial",
+                "details": "Pixelmon is a decentralized web3 gaming IP company that develops online video games.",
+                "location": "New York, New York, United States"
+            },
+            {
+                "name": "Everyrealm",
+                "URL": "https://everyrealm.com/",
+                "type": "commercial",
+                "details": "Develops and invests in businesses related to virtual worlds and social video gaming—an ecosystem also known as immersive media.",
+                "location": "New York, New York, United States"
+            },
+            {
+                "name": "Insomnia Labs",
+                "URL": "https://www.insomnialabs.io/",
+                "type": "commercial",
+                "details": "Insomnia Labs provides advertising and technological services to assist businesses in achieving their metaverse objectives.",
+                "location": "New York, New York, United States"
+            }
+        ]
+    },
+    {
+        "country": "Brazil",
+        "entities": [
+            {
+                "name": "Tipspace",
+                "URL": "http://www.tipspace.gg/",
+                "type": "commercial",
+                "details": "Tipspace allows to any gamer monetize their matches and create new game modes on competitive games.",
+                "location": "São Paulo, Sao Paulo, Brazil"
+            },
+            {
+                "name": "XEPA",
+                "URL": "https://xepa.world/",
+                "type": "commercial",
+                "details": "XEPA develops and creates a virtual world that share art and entertainment through metaverse.",
+                "location": "São Paulo, Sao Paulo, Brazil"
+            },
+            {
+                "name": "BAYZ",
+                "URL": "https://bayz.gg/",
+                "type": "commercial",
+                "details": "BAYZ is a Play-to-earn gaming guild that helps members earn money by playing video games and being part of a global gaming community.",
+                "location": "São Paulo, Sao Paulo, Brazil"
+            }
+        ]
+    },
+    {
+        "country": "United Kingdom",
+        "entities": [
+            {
+                "name": "Threedium",
+                "URL": "https://threedium.io/",
+                "type": "commercial",
+                "details": "Threedium enables the digitization of physical products that can be sold as 3D NFTs and fulfilled in physical form or in the metaverse.",
+                "location": "London, England, United Kingdom"
+            },
+            {
+                "name": "Emperia",
+                "URL": "https://emperiavr.com/",
+                "type": "commercial",
+                "details": "Powering the creation and management of immersive virtual experiences for retailers",
+                "location": "London, England, United Kingdom"
+            }
+        ]
+    },
+    {
+        "country": "Germany",
+        "entities": [
+            {
+                "name": "Hololight",
+                "URL": "https://hololight.com/",
+                "type": "commercial",
+                "details": "Unleashing the potential of XR. Hololight provides XR software and streaming technology for the enterprise market.",
+                "location": "Ismaning, Bayern, Germany"
+            },
+            {
+                "name": "Rooom",
+                "URL": "https://www.rooom.com/",
+                "type": "commercial",
+                "details": "Rooom is a software development company that offers SAAS and creative digital solutions.",
+                "location": "Jena, Thuringen, Germany"
+            }
+        ]
+    },
+    {
+        "country": "Japan",
+        "entities": [
+            {
+                "name": "Yae Labs",
+                "URL": "https://yaelabs.com/",
+                "type": "commercial",
+                "details": "Yae Labs is a web3, metaverse, and anime startup.",
+                "location": "Tokyo, Tokyo, Japan"
+            },
+            {
+                "name": "Zaiko",
+                "URL": "https://zaiko.io/",
+                "type": "commercial",
+                "details": "Zaiko is a Creator Empowerment Platform that enables Epic Fan Experiences through co-creation, co-ownership and exclusive experiences.",
+                "location": "Tokyo, Tokyo, Japan"
+            }
+        ]
+    },
+    {
+        "country": "China",
+        "entities": [
+            {
+                "name": "Ambrus Studio",
+                "URL": "https://www.ambrus.studio/",
+                "type": "commercial",
+                "details": "Ambrus Studio develops games and a metaverse to connect player communities from all over the world.",
+                "location": "Shanghai, Shanghai, China"
+            },
+            {
+                "name": "MAGIC AI",
+                "URL": "http://www.qihuankeji.cn/",
+                "type": "commercial",
+                "details": "MAGIC AI is a creative content company that creates intelligent virtual human and use it for VR / AR creative content.",
+                "location": "Haidian, Beijing, China"
+            },
+            {
+                "name": "Bigverse",
+                "URL": "https://www.nftcn.com.cn/",
+                "type": "commercial",
+                "details": "Bigverse is a digital art trading platform.",
+                "location": "Hangzhou, Zhejiang, China"
+            }
+        ]
+    },
+    {
+        "country": "India",
+        "entities": [
+            {
+                "name": "AjnaLens",
+                "URL": "https://www.ajnalens.com/",
+                "type": "commercial",
+                "details": "World's leading XR glasses & Metaverse Platform Company",
+                "location": "Thane, Maharashtra, India"
+            },
+            {
+                "name": "Flam",
+                "URL": "https://flamapp.com/",
+                "type": "commercial",
+                "details": "Flam is a social metaverse company.",
+                "location": "Bangalore, Karnataka, India"
+            }
+        ]
+    },
+    {
+        "country": "Russia",
+        "entities": [
+            {
+                "name": "Advers",
+                "URL": "http://www.ads2life.com/",
+                "type": "commercial",
+                "details": "Advers is an internet service-based company.",
+                "location": "Moscow, Moscow City, Russian Federation"
+            }
+        ]
+    },
+    {
+        "country": "United Arab Emirates",
+        "entities": [
+            {
+                "name": "Vault Hill",
+                "URL": "https://vaulthill.io/",
+                "type": "commercial",
+                "details": "A human-centric metaverse designed to make you feel more human",
+                "location": "Dubai, Dubai, United Arab Emirates"
+            },
+            {
+                "name": "OneRare",
+                "URL": "https://onerare.io/",
+                "type": "commercial",
+                "details": "OneRare is a food metaverse, gaming and NFTs platform.",
+                "location": "Jumairah, Dubai, United Arab Emirates"
+            },
+            {
+                "name": "Orbofi",
+                "URL": "https://orbofi.com/",
+                "type": "commercial",
+                "details": "Orbofi is a social metaverse crossed social tokens where any individual and brand can create its own virtual world and currency.",
+                "location": "Dubai, Dubai, United Arab Emirates"
+            },
+            {
+                "name": "Trace Network Labs",
+                "URL": "https://trace.network/",
+                "type": "commercial",
+                "details": "Trace Network Labs is a metaverse technology firm for fashion and lifestyle that offers a shopping experience through a metaverse.",
+                "location": "Dubai, Dubai, United Arab Emirates"
+            },
+            {
+                "name": "BoomLand",
+                "URL": "https://boomland.io/",
+                "type": "commercial",
+                "details": "BoomLand is a blockchain gaming platform that gives a revolutionary gaming experience.",
+                "location": "Dubai, Dubai, United Arab Emirates"
+            }
+        ]
+    },
+    {
+        "country": "Nigeria",
+        "entities": [
+            {
+                "name": "Metaverse Magna",
+                "URL": "https://mvm.gg/",
+                "type": "commercial",
+                "details": "MVM builds gaming products and gaming communities, and our primary product is Hyper.",
+                "location": "Lagos, Lagos, Nigeria"
+            },
+            {
+                "name": "Mind Smith",
+                "URL": "https://mindsmithltd.com/",
+                "type": "commercial",
+                "details": "Full-time online school for all levels of primary and secondary students across the world",
+                "location": "Lagos, Lagos, Nigeria"
+            }
+        ]
+    }
+]
